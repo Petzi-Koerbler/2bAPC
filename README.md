@@ -1,22 +1,18 @@
-# BankSystem
+### BankSystem
 
 Ein einfaches Java-Konsolenprogramm zur Verwaltung von Bankkonten. Benutzer können Konten erstellen, Einzahlungen und Abhebungen vornehmen, Kontoauszüge anzeigen und Konten löschen.
 
-## Features
+### Beschreibung der Software
 
-- Konto anlegen
-- Geld einzahlen
-- Geld abheben
-- Kontoauszug anzeigen
-- Konto löschen
+Das Programm ermöglicht grundlegende Bankoperationen über die Konsole. Es unterstützt das Erstellen, Verwalten und Löschen von Konten sowie das Einzahlen und Abheben von Geldbeträgen.
 
-## Installation & Ausführung
+### Installation
 
-### Voraussetzungen
+#### Voraussetzungen
 
 - Java Development Kit (JDK) 8 oder höher
 
-### Kompilieren und Ausführen
+#### Kompilieren und Ausführen
 
 1. Speichere die Datei als `BankSystem.java`.
 2. Öffne ein Terminal oder eine Eingabeaufforderung und navigiere zum Speicherort der Datei.
@@ -29,24 +25,19 @@ Ein einfaches Java-Konsolenprogramm zur Verwaltung von Bankkonten. Benutzer kön
    java BankSystem
    ```
 
-## Verwendung
+### Verwendete Technologien & mögliche Erweiterungen
 
-Nach dem Start wird das Menü angezeigt:
+- **Technologien**: Java, Konsolenanwendung
+- **Erweiterungen**:
+  - Integration mit einer Datenbank für persistente Speicherung
+  - Web-Oberfläche mit REST-API für eine moderne Benutzererfahrung
+  - Erweiterte Sicherheitsmechanismen wie Authentifizierung
 
-```
-Welche Aktion möchten Sie durchführen?
-1 - Konto anlegen
-2 - Einzahlen
-3 - Abheben
-4 - Kontoauszug
-5 - Konto auflösen
-0 - Programm beenden
-```
+### Screenshots
 
-Wähle eine Option durch Eingabe der entsprechenden Nummer.
+![alt text](image.png)
 
-
-## Lizenz
+### Lizenz
 
 Dieses Projekt steht unter der MIT-Lizenz.
 
